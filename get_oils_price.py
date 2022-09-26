@@ -17,7 +17,6 @@ from multiprocessing.dummy import Pool as ThreadPool
 
 def get_table(province_name):
     # 定义常量和存放数据的矩阵
-    province_name='上海'
     price_table = []
     var_name = ['调整时间(单位:元/升)', '调整类别', '89#汽油价格', '89#汽油涨幅', '92#汽油价格', '92#汽油涨幅',
                 '95#汽油价格',
